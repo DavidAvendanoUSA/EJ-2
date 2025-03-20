@@ -35,5 +35,8 @@ public class Programa {
         this.facultad = facultad;
     }
 
-
+    @Override
+    public String toString() {
+        return " codProg=" + codProg +", nombreProg='" + nombreProg +  ", facultad='" + facultad ;
+    }
 }

@@ -28,5 +28,8 @@ public class Fecha {
     public void setAño(int anio) {
         this.anio = anio;
     }
-
+    @Override
+    public String toString() {
+        return dia + "/" + mes + "/" + anio;
+    }
 }

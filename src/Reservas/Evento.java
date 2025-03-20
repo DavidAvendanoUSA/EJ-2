@@ -21,4 +21,5 @@ public class Evento {
     public void setInscripciones(List<Inscripcion> inscripciones) {
         this.inscripciones = inscripciones;
     }
+    
 }

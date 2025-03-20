@@ -24,6 +24,9 @@ public class Proyecto {
     public void setObjetivo(String objetivo) {
         this.objetivo = objetivo;
     }
-
+    @Override
+    public String toString() {
+        return " nombre=" + nombre + ", objetivo=" + objetivo ;
+    }
 
 }

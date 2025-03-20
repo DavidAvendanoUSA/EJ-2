@@ -25,5 +25,8 @@ public class Codigo {
         this.letra = letra;
     }
 
-
+    @Override
+    public String toString() {
+        return  codigo + ", letra=" + letra + " ";
+    }
 }

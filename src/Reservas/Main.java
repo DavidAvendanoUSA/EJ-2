@@ -13,18 +13,7 @@ public class Main {
         Evento evento = new Evento();
         evento.agregarInscripcion(inscripcion);
 
-        System.out.println("ID: " + estudiante.getId() +
-                ", Código: " + estudiante.getCodigoEstudiante().getCodigo() + estudiante.getCodigoEstudiante().getLetra() +
-                ", Nombre: " + estudiante.getNombreEstudiante().getNombre() + " " + estudiante.getNombreEstudiante().getApellido() +
-                ", Fecha de nacimiento: " + estudiante.getFechaNacimiento().getDia() + "/" +
-                                            estudiante.getFechaNacimiento().getMes() + "/" +
-                                            estudiante.getFechaNacimiento().getAnio() +
-                ", Proyecto: " + proyecto.getNombre() +
-                ", Objetivo: " + proyecto.getObjetivo() +
-                ", Programa: " + programa.getNombreProg() +
-                ", Facultad: " + programa.getFacultad() +
-                ", Fecha de inscripción: " + fechaInscripcion.getDia() + "/" +
-                                            fechaInscripcion.getMes() + "/" +
-                                            fechaInscripcion.getAnio());
+        
+        System.out.println(inscripcion);
     }
 }

@@ -45,5 +45,8 @@ public class Inscripcion {
         this.fechaInscripcion = fechaInscripcion;
     }
 
-
+    @Override
+    public String toString() {
+        return "Inscripcion " +"estudiante=" + estudiante + ", proyecto=" + proyecto + ", programa=" + programa +", fechaInscripcion=" + fechaInscripcion ;
+    }
 }
